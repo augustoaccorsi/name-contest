@@ -1,7 +1,13 @@
 import { createRoot } from 'react-dom/client';
 
 const App = () => {
-    return  <div>Hello React</div>;
+    return (
+        <div>
+            <h1>Hello React</h1>
+            <h2>Hello JSX</h2>
+            {Math.random()}
+        </div>
+    );
 };
 
 const container = document.getElementById('app');
